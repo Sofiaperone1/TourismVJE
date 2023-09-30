@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+
+
+.home {display: flex;
+    flex-direction: column;
+
+    align-items: center;}
+
+.firstPartH {
+    background-color: white;
+}
+
+.banner { 
+    background-image: url("../../imgs/b3.jpg");
+    width: 100%;
+    height: 587px;
+    margin-top: 3.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+
+
+
+/* SECCIONES  ----------------------------- */
+
+.seccion1-home {
+    margin-top: 7%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 87%;
+    border: transparent;
+}
+
+.seccion1-home img {
+    width: 65%;
+    box-shadow: 13px 10px 16px rgb(0 0 0 / 27%); 
+    
+}
+
+.seccion1-home p {
+    font-family: 'Poppins', sans-serif;
+    width: 82%;
+    font-size: 20px;
+    margin-right: 5%;
+    color: #6b6b6b;
+    
+    max-height: 100%;
+}
+
+.seccion1-home p button, .seccion12-home .lodgingText button {
+    margin-top: 8%;
+    height: 70px;
+    width: 100%;
+}
+
+.seccion12-home {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    width: 87%;
+}
+
+.lodgingPics {
+    width: 65%;
+}
+
+.lodgingPics img{
+ width: 330px;
+ height: 200px;
+ margin: 2%;
+ box-shadow: 13px 10px 16px rgb(0 0 0 / 27%); 
+}
+
+.lodgingText {
+    width: 35%;
+}
+
+.seccionTitle {
+    margin-top: 2%;
+    font-size: 45px;
+    font-family: 'Staatliches', cursive;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.651);
+}
+.lodgingText p {
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    font-size: 20px;
+    color: #6b6b6b;
+}
+.lodgingText ul {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.lodgingText ul li {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #6b6b6b;
+    
+}
+.seccion-titles p{
+    font-size: 44px;
+    margin-top: 4%;
+    margin-bottom: 0.5%;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+    color: rgba(80, 80, 80, 0.904);
+   
+}
+
+.seccion-titles div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+.seccion-titles Divider {
+    width: 81px;
+    align-self: center;
+  
+}
+
+.seccion-titles, .seccion3-home{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;}
+
+.seccion-titles h4, .seccion3-home h3{
+    color: gray;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 2%;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  text-align: center;
+}
+
+
+.seccion2-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    width: 95%;
+    margin-bottom: 5%;
+}
+
+.seccion2-home img {
+    width: 50%;
+    margin-right: 5%;
+}
+.seccion2-home  p  {
+    width: 35%;
+    font-family: 'Poppins', sans-serif;
+    height: 399px;
+    font-size: 22px;
+
+    display: flex;
+    padding-right: 3%;
+    border: 1px solid #80808040;
+    padding-left: 3%;
+    box-shadow: 14px 10px 16px rgb(0 0 0 / 27%);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.seccion3-home h1 {
+    color: rgb(80 80 80 / 85%);
+    font-weight: 700;
+    font-size: 44px;
+    font-weight: 100;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.seccion4-home{
+    background-image: url("../../imgs/fondoHome2.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    width: 100%;
+}
+.seccion4-home  h1{
+font-size: 30px;
+color: white;
+}
+.seccion4-home div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    height: 50%;
+}
+.seccion4-home div div {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.seccion4-home img {
+    width: 55%;
+}
+.seccion4-home h1 {
+   font-size: 35px;
+   margin-top: 3%;
+   margin-bottom: 22%;
+   font-family: 'Staatliches', cursive;
+}
+.seccion4-home p {
+    font-size: 19px;
+    text-shadow: 1px 1px 2px rgb(145, 145, 145)
+}

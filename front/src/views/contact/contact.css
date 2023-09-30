@@ -1,0 +1,91 @@
+/* CONTACTANOS ---------------------------*/
+
+.contactanos {
+    background-image: url("../../imgs/b3.jpg");
+    padding-top: 11%;
+   
+
+}
+
+.formContent {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:white
+
+}
+
+ form .css-sghohy-MuiButtonBase-root-MuiButton-root {
+
+    background-color: #4ddddd;
+}
+.contactanos Form {
+    
+    width: 75%;
+    
+}
+
+.suscribeDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Gmaps {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    height: 620px;
+}
+
+
+#fondoForm {
+    width: 40%;
+   margin-left: 5%;
+    margin-top: 4%;
+  margin-bottom: 5%;
+  
+}
+
+.formCard {
+    margin-top: 3%;
+}
+.formCardDecoration{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+}
+
+.formCardDecoration h3 {
+    color:#4ddddd;
+  
+}
+form p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2%;
+
+}
+
+hr.MuiDivider-root.MuiDivider-middle.MuiDivider-vertical.MuiDivider-flexItem.css-16bghm4-MuiDivider-root {
+    margin-top: 4%;
+    margin-right: 5%;
+    height: 626px
+}
+
+.suscribeDiv svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  
+    color: #4ddddd;
+    margin-top: 34%;
+}
+
+.sucursalesText {
+  margin-top: 10%;
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 99, 99);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.185);
+}
+
