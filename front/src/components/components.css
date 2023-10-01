@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+
+/* BANNER VIDEO */ 
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: max-content;
+  }
+  
+  video {
+    width: 100%;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0); /* Fondo semi-transparente para el texto */
+    color: white; /* Color del texto */
+    padding: 20px;
+    text-align: left;
+  
+  }
+  
+  .text-overlay h1 {
+    font-size: 75px;
+    margin-bottom: 10px;
+    font-family: 'Staatliches', cursive;
+    color: white; text-shadow: rgba(0, 0, 0, 0.548) 0.1em 0.1em 0.2em;
+    letter-spacing: 5px;
+  }
+  
+  .text-overlay p {
+    font-size: 45px;
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+    color: white; text-shadow: rgba(0, 0, 0, 0.514) 0.1em 0.1em 0.2em;
+  }
+  
+  
+
+  /* ------- FOOTER ---------- */
+
+  .footer {
+    background-color: #350065;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+/* ---------  NAVBAR ---------- */
+
+.navbar.active{
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+
+    }
+.navbar.active ul li { margin: 0;}
+.nav-container {
+    width: 100%;
+    height:25vh;
+    z-index: 500;
+    position: absolute;
+    top: 0;
+    background: transparent;
+
+}
+
+.nav-container.active {
+    width: 100%;
+    height: 9vh;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+ box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.185);
+}
+
+
+.logo.active {
+    width: 60px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+
+.navbar.active ul {
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+.navbar ul li {
+    float: right;
+    width: 13%;
+    height: 50px;
+    text-align: center;
+    line-height: 17px;
+list-style: none;
+margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+.navbar.active ul li a {
+    color: #5a5858;
+    text-shadow: none;
+}
+.navbar ul li a {
+    font-size: 21px;
+    display: block;
+    text-decoration: none;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10%;
+
+}
+
+.dropdown-menu ul {
+    margin-top: 10%;
+}
+.dropdown-menu ul li{
+    background: #fffdfd91;
+    display: none;
+    animation: animate 1s ease;
+    margin: 0;
+        width: 100%;
+}
+
+.dropdown-menu ul li a {
+   
+    margin-top: 7%;
+    font-size: 22px;
+    color: #4a4a4a;
+    text-shadow: none;
+   
+}
+
+.dropdown-menu ul li a:hover{
+    background:#fff;
+    color:#262626
+}
+
+.navbar ul li:hover ul li {
+display: block;
+}
+
+
+.navbar ul li:hover {
+    background: rgba(110, 202, 214, 0.288);
+    color: #262626;
+    transition:700ms ease ;
+
+}
+
+.atentionHours {
+    width: 100%;
+    background: white;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+}
+
+.atentionHours img {
+    margin-left: 3%;
+    height: 50px;
+}
+.atentionHours p {
+    margin-left: 27%;
+}
+.atentionHours.active {
+ 
+    display: none;
+    transition: 0.3s ease-out;
+} 
+
+
+.css-i4bv87-MuiSvgIcon-root {
+  
+    color: white;
+    font-size: 1.7rem;
+    margin-right: 5px;
+}
