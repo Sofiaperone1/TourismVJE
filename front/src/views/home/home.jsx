@@ -12,7 +12,7 @@ import l1 from "../../imgs/lodging/l1.jpg"
 import l2 from "../../imgs/lodging/l2.jpg"
 import l3 from "../../imgs/lodging/l3.jpg"
 import l4 from "../../imgs/lodging/l4.jpg"
-
+import Calendar from "../../components/calendar.tsx"
 
 const Home = () => {
 
@@ -73,6 +73,7 @@ const Home = () => {
               El Norte, St. Martin es parte de Francia con ciertas ventajas impositivas.
               Si bien hay una frontera, no hay ningún control y desde 1648, todavía en época colonial,  el tráfico de personas y mercaderías es libre, sin ningún tipo de control en las Fronteras.</p>
         </div>
+
      <div className='seccion3-home'>
         <h1>TUS PROXIMAS VACIONES EN SAN MARTIN</h1>
         <h3>¡Queremos que crees recuerdos especiales con quienes más quieres! Por eso, compartimos contigo las razones por las cuales debes escogernos para disfrutar tus próximas vacaciones en nuestra Isla Feliz. </h3>
